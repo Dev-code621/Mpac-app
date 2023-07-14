@@ -1,0 +1,13 @@
+version: '3.0'
+services:
+  mpac-app:
+    container_name: mpac-app
+    image: registry.staging.mpacapp.com/mpac-app:latest
+    restart: always
+    networks:
+      - web_default
+
+networks:
+  web_default:
+    driver: bridge
+    external: true

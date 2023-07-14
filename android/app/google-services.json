@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "398523306336",
+    "project_id": "mpac-sports",
+    "storage_bucket": "mpac-sports.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398523306336:android:56dabf61e58c3e1ba7ce05",
+        "android_client_info": {
+          "package_name": "com.example.mpac_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398523306336-u0qpes7ctj5k18fg71dimv3cavjvbnkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mpac_app",
+            "certificate_hash": "81584bc5464c85410e0492b1336574dbf3a37229"
+          }
+        },
+        {
+          "client_id": "398523306336-jla6ojupjteuuulrj1chdam16e7o6djj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfS5-vBUKFV7enyaqEFz1esoKA1T9g3IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398523306336-jla6ojupjteuuulrj1chdam16e7o6djj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398523306336-4lb4qunn7ju055b0454pfdjlh4m95qul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mpacApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Gametime",
+  "short_name": "GT",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#FFB846",
+  "description": "Gametime project powered by MPAC Sports",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "id": "2ca5f090-22e8-49c4-b239-cc683c8c1249",
+    "name": "Football",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Goal Keeper",
+        "Center Midfield",
+        "Left Back",
+        "Attacking Midfield",
+        "Center Back",
+        "Right Wing / Forward",
+        "Defensive Midfield",
+        "Striker",
+        "Left Wing / Forward",
+        "Right Back"
+      ]
+    }
+  },
+  {
+    "id": "e1b88f46-12fe-4a4c-94a8-3311dc42516b",
+    "name": "Basketball",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Player Position",
+        "Point guard",
+        "Shooting guard",
+        "Small forward",
+        "Power forward",
+        "Center"
+      ]
+    }
+  },
+  {
+    "id": "b064dd0f-3162-4183-9499-47a5a16536e6",
+    "name": "Boxing",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Heavyweight",
+        "Junior lightweight",
+        "Cruiserweight",
+        "Featherweight",
+        "Light heavyweight",
+        "Middleweight",
+        "Bantamweight",
+        "Junior flyweight",
+        "Junior bantamweight",
+        "Flyweight",
+        "Lightweight",
+        "Junior middleweight",
+        "Junior welterweight",
+        "Welterweight",
+        "Strawweight",
+        "Super middleweight",
+        "Junior featherweight"
+      ]
+    }
+  },
+  {
+    "id": "7d8227a4-459e-4475-ab04-ca1a9a2db6bf",
+    "name": "American Football",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Quarterback",
+        "Cornerback",
+        "Offensive lineman",
+        "Safety",
+        "Running back",
+        "Kick returner",
+        "Fullback",
+        "Punter",
+        "Tight end",
+        "Wide receiver",
+        "Punt returner",
+        "Defensive lineman",
+        "Long snapper",
+        "Linebacker",
+        "Kicker"
+      ]
+    }
+  },
+  {
+    "id": "6341d072-6a58-4ed3-bce6-08122f1555f8",
+    "name": "Netball",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Goal Keeper",
+        "Goal Defence",
+        "Wing Defence",
+        "Wing Attack",
+        "Centre",
+        "Goal Attack",
+        "Goal Shooter"
+      ]
+    }
+  },
+  {
+    "id": "920c284d-c52b-4e5e-aa71-af18425770ec",
+    "name": "Cricket",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Wicketkeeper",
+        "Fine leg",
+        "Slip",
+        "Mid wicket",
+        "Gully",
+        "Mid off",
+        "Point",
+        "Square leg",
+        "Cover",
+        "Captain",
+        "Third man"
+      ]
+    }
+  },
+  {
+    "id": "76cc8052-ad14-44f5-8252-fc3da35cf3d9",
+    "name": "Rugby",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Loose head prop",
+        "Scrum half",
+        "Hooker",
+        "Fly half",
+        "Tight head",
+        "Left wing",
+        "Second row",
+        "Full back",
+        "Outside center",
+        "Open side flanker",
+        "Open side flanker",
+        "Inside center",
+        "Blind side flanker",
+        "Right wing",
+        "Number 8"
+      ]
+    }
+  },
+  {
+    "id": "2a10e5b5-f25f-4351-b987-bca3d7e7ccd9",
+    "name": "Golf",
+    "type": "positions",
+    "attributes": { "positions": ["18 Holes", "12 Holes", "9 Holes"] }
+  },
+  {
+    "id": "b7de8e31-de8d-426d-8cf0-382eb5e9eb5e",
+    "name": "Tennis",
+    "type": "positions",
+    "attributes": { "positions": ["Singles", "Mixed doubled", "Doubles"] }
+  },
+  {
+    "id": "eda49dd6-8fe2-4ebd-8784-5a5fde34b96d",
+    "name": "Gymnastic",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Artistic",
+        "Rythmic",
+        "Trampoline",
+        "Power tumbling",
+        "Acrobatics",
+        "Aerobics"
+      ]
+    }
+  },
+  {
+    "id": "0f8cfd6e-20ed-45d0-8ac4-2b348ed298ba",
+    "name": "Martial Arts",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Aikido",
+        "Kung fu",
+        "Hapkido",
+        "MMA",
+        "Judo",
+        "Muay thai",
+        "Jiu jitsu",
+        "Taekwondo",
+        "Karate",
+        "Tai chi",
+        "Krav maga"
+      ]
+    }
+  },
+  {
+    "id": "bbe7f177-a5b8-4cd7-ae13-fdb9e05c2177",
+    "name": "Cycling",
+    "type": "positions",
+    "attributes": {
+      "positions": [
+        "Road",
+        "BMX racing",
+        "Track",
+        "Indoor cycling",
+        "Mountain bike",
+        "Trials",
+        "BMX freestyle",
+        "Cyclo-cross"
+      ]
+    }
+  },
+  {
+    "id": "71c43228-70bc-487b-9f8c-b430c3eefac4",
+    "name": "Swimming",
+    "type": "events",
+    "attributes": {
+      "events": [
+        {
+          "id": "e006cb20-0590-4564-8c25-015213746d93",
+          "name": "Free Style",
+          "type": "variations",
+          "variations": [
+            { "id": "3fca9368-16ee-4ddf-910b-0a4678834686", "name": "50 M" },
+            { "id": "b4c54f71-7e8b-4bbb-b4a5-41e1f68291e1", "name": "100 M" },
+            { "id": "f30364ea-b073-4163-8586-26d9e2cff2e4", "name": "400 M" },
+            { "id": "c0dc1852-8ce2-4d65-9c43-edd2616e4fd4", "name": "4×100 M" }
+          ]
+        },
+        {
+          "id": "0378312c-ded0-4a20-823e-62ee316e9a4f",
+          "name": "Back Stroke",
+          "type": "variations",
+          "variations": [
+            { "id": "72d2b6f6-9424-44cb-94eb-32264e68746c", "name": "50 M" },
+            { "id": "8520cfeb-ebdc-4aa3-af1b-bd1939232163", "name": "100 M" },
+            { "id": "64ad57d0-cae7-40de-b1ff-8cb921de4325", "name": "200 M" }
+          ]
+        },
+        {
+          "id": "938bfdf2-8148-4039-90a9-148a9bdb3334",
+          "name": "Breaststroke",
+          "type": "variations",
+          "variations": [
+            { "id": "97ffee3c-7b8a-497b-b8d6-e0f3a11ba9e1", "name": "50 M" },
+            { "id": "08d5d9e4-c894-4881-a9b1-1e452c16e95e", "name": "100 M" },
+            { "id": "58bc2e96-04e3-43c7-ac5d-81be110b930c", "name": "200 M" }
+          ]
+        },
+        {
+          "id": "e2a16533-73d0-48de-a440-59b725a411b4",
+          "name": "Butterfly",
+          "type": "variations",
+          "variations": [
+            { "id": "dfbfb9ab-14ee-4da7-b7bb-1667944d426e", "name": "50 M" },
+            { "id": "cef03582-1da9-4cb1-9805-75f1008741d0", "name": "100 M" },
+            { "id": "e4e75488-2565-4319-a171-2257a312a00a", "name": "200 M" }
+          ]
+        },
+        {
+          "id": "9b098121-8993-4c19-b9c9-da07f5968610",
+          "name": "Individual Medley",
+          "type": "variations",
+          "variations": [
+            { "id": "4fc2b118-97fc-4d43-bcb8-0b88a01ee8b4", "name": "100 M" },
+            { "id": "5af5140d-b88d-443c-8b26-a12274b04924", "name": "200 M" },
+            { "id": "ffa4ce0c-6128-4023-aecf-297701908637", "name": "400 M" },
+            { "id": "4ec0430a-1f99-441b-b681-3cfc7cc1d712", "name": "4×100 M" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "95282c08-059b-46fb-9b9b-5b188d24b335",
+    "name": "Athletics",
+    "type": "events",
+    "attributes": {
+      "events": [
+        {
+          "id": "d42bad32-3b88-4383-8731-f70e63b3f96d",
+          "name": "Track Events",
+          "type": "advanced-events",
+          "category": "Outdoor",
+          "events": [
+            {
+              "id": "4b529ba3-e019-4769-bb2f-266050b29a2d",
+              "name": "Sprints",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "9a9bcd6b-a291-41e6-be21-35fe11e48429",
+                  "name": "100 M"
+                },
+                {
+                  "id": "d560e218-fabd-44b5-8779-a450c93ef0d0",
+                  "name": "200 M"
+                },
+                {
+                  "id": "3cb38441-dd47-4732-aa97-64aa661f5a10",
+                  "name": "400 M"
+                }
+              ]
+            },
+            {
+              "id": "04373df0-e1dd-467c-b1ef-19f0f4fc858b",
+              "name": "Middle Distance",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "bf6ca167-09e0-4d54-a3ba-5104c313fbec",
+                  "name": "800 M"
+                },
+                {
+                  "id": "8f009384-3ce0-482d-99f3-98f622161adb",
+                  "name": "1,500 M"
+                }
+              ]
+            },
+            {
+              "id": "6b3e2387-c3e5-4136-9ebd-bcffd9af0740",
+              "name": "Long Distance",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "ee164765-dd70-42c0-a7ec-02a45e08f730",
+                  "name": "3,000 M"
+                },
+                {
+                  "id": "ed4e2b11-9219-415e-bd5b-7f5c825e6d08",
+                  "name": "5,000 M"
+                },
+                {
+                  "id": "e1e30f09-b3dc-4150-9999-90f9e059a9be",
+                  "name": "10,000 M"
+                },
+                {
+                  "id": "d02849aa-0fa2-4ce0-b11a-c3766594643a",
+                  "name": "Steeplechase"
+                }
+              ]
+            },
+            {
+              "id": "ba2eeb9b-34f1-48a1-9dc8-8275f8998a58",
+              "name": "Hurdles",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "145785e0-740d-44fb-914a-51715e2b3904",
+                  "name": "1/100 M"
+                },
+                {
+                  "id": "79933a40-1aa9-4b97-a60b-2400f6cb6727",
+                  "name": "400 M"
+                }
+              ]
+            },
+            {
+              "id": "a9a12eed-1ab7-4da8-8eb1-0acf551568b1",
+              "name": "Relays",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "ff31b028-035b-4068-b92d-e085bb6085d4",
+                  "name": "4×100 M"
+                },
+                {
+                  "id": "3bceac31-8111-474e-882f-1e789755ed3a",
+                  "name": "4×400 M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ce38553d-a356-48b8-8b43-3cee677ebc70",
+          "name": "Jump Events",
+          "type": "variations",
+          "category": "Outdoor",
+          "variations": [
+            {
+              "id": "83d92a07-4e57-4319-9cc6-5914d8cac388",
+              "name": "Long Jump"
+            },
+            {
+              "id": "c12bd053-a89b-45fb-ae12-8a58d4287784",
+              "name": "High Jump"
+            },
+            {
+              "id": "f8125204-670a-4708-a574-1fa8f9819c38",
+              "name": "Triple Jump"
+            },
+            {
+              "id": "6272dc0d-3022-4b3d-8746-603012114d7b",
+              "name": "Pole Vault"
+            }
+          ]
+        },
+        {
+          "id": "a0365eee-c45f-4b07-b680-dc8e53bac7b1",
+          "name": "Throw Events",
+          "type": "variations",
+          "category": "Outdoor",
+          "variations": [
+            { "id": "8e0ab387-e9f9-4c6e-a595-97946e3ab009", "name": "Discus" },
+            { "id": "024f4e04-7321-4ca3-b833-04dd1f245f20", "name": "Javelin" },
+            {
+              "id": "6caad403-00ef-4b60-b9d7-9478dea0c2f3",
+              "name": "Hammer Throw"
+            },
+            { "id": "5f228fbb-6585-4d69-b4f2-b9c2daabaeaf", "name": "Shot Put" }
+          ]
+        },
+        {
+          "id": "16a60aef-b071-429e-b52d-b757bc426343",
+          "name": "Track Events",
+          "type": "events",
+          "category": "Indoor",
+          "events": [
+            {
+              "id": "5ef6f3c5-644f-447b-a312-bc145cc2c1f3",
+              "name": "Sprints",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "aca5afdb-945b-4c51-a025-e2bd789605d5",
+                  "name": "100 M"
+                },
+                {
+                  "id": "7b1e7b0c-07f6-4912-aa45-71549061d648",
+                  "name": "200 M"
+                },
+                {
+                  "id": "16b0955e-a004-4399-a611-9575ef75060d",
+                  "name": "400 M"
+                }
+              ]
+            },
+            {
+              "id": "8be2b0fc-4a31-4681-a35d-183633accaeb",
+              "name": "Middle Distance",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "bf6ae599-1633-4bad-bab2-636ce683d33a",
+                  "name": "800 M"
+                },
+                {
+                  "id": "e64e321a-b57e-40f1-87af-f028f4d505a5",
+                  "name": "1,500 M"
+                }
+              ]
+            },
+            {
+              "id": "4055dca6-8e05-4205-89c8-2f14d630bcb6",
+              "name": "Long Distance",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "8ddcb6b3-5d61-437f-ac6e-a42220e33500",
+                  "name": "3,000 M"
+                },
+                {
+                  "id": "acb1b901-2f42-4338-9dde-d2ca7d433bce",
+                  "name": "5,000 M"
+                },
+                {
+                  "id": "e0e7af33-9ed1-4241-b613-58a9367f2c4a",
+                  "name": "10,000 M"
+                },
+                {
+                  "id": "ab373284-8ce8-4a52-9640-217fb9800a61",
+                  "name": "Steeplechase"
+                }
+              ]
+            },
+            {
+              "id": "64e3678d-2f02-4917-95e2-8de1c8136b3d",
+              "name": "Hurdles",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "a5667a2d-13a6-42f1-b460-924701c94626",
+                  "name": "1/100 M"
+                },
+                {
+                  "id": "46050133-b3bb-4e82-b75e-baa14820cdea",
+                  "name": "400 M"
+                }
+              ]
+            },
+            {
+              "id": "0c7e255a-dce8-48ad-9960-0a552ace41c7",
+              "name": "Relays",
+              "type": "variations",
+              "variations": [
+                {
+                  "id": "fe13becf-cc2f-4082-a175-72e578f97730",
+                  "name": "4×100 M"
+                },
+                {
+                  "id": "6f546084-d2be-49d9-ae37-3fd768f908f5",
+                  "name": "4×400 M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ca4e6f2b-e603-47bc-8664-5d5a2a94c817",
+          "name": "Jump Events",
+          "type": "variations",
+          "category": "Indoor",
+          "variations": [
+            {
+              "id": "c6e8a4fa-d1c4-46e0-82cd-65f4191a1caa",
+              "name": "Long Jump"
+            },
+            {
+              "id": "5c590ed1-e0a7-4a38-b27e-7aae052377e8",
+              "name": "High Jump"
+            },
+            {
+              "id": "e33d5574-e0a9-4593-9143-a0160ee8bb2d",
+              "name": "Triple Jump"
+            },
+            {
+              "id": "15a98db9-8a7d-4aee-a13a-369c1c789394",
+              "name": "Pole Vault"
+            }
+          ]
+        },
+        {
+          "id": "64e26a84-0005-4c1c-9efd-e660a3c5c083",
+          "name": "Throw Events",
+          "type": "variations",
+          "category": "Outdoor",
+          "variations": [
+            { "id": "e391a592-d061-4eb7-8454-3950c8d8de3c", "name": "Discus" },
+            { "id": "3cefaf9f-b754-4f71-acd0-2fedb8d6ae95", "name": "Javelin" },
+            {
+              "id": "738277a5-059a-48dc-8df2-b8d221cae2e6",
+              "name": "Hammer Throw"
+            },
+            { "id": "82a45e1d-c2b4-47e1-859b-e711d755d349", "name": "Shot Put" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "a1154053-0ecb-4d24-9f88-7454e033aa14",
+    "name": "Road Racing",
+    "type": "events",
+    "attributes": {
+      "events": [
+        {
+          "id": "31cf8ec8-b8e6-4d6f-aded-6d584f057b75",
+          "name": "Running Events",
+          "type": "variations",
+          "variations": [
+            { "id": "583b4589-561c-4c24-b191-6030ae5c0e8e", "name": "10K" },
+            { "id": "c478a534-75cb-4b1b-adb4-ed94cd5646ad", "name": "20K" },
+            { "id": "21fc2189-0d9a-469d-95e2-0b1e94deac28", "name": "35K" },
+            { "id": "51991aba-640d-41ec-9eaa-0928693bcf5f", "name": "50K" }
+          ]
+        },
+        {
+          "id": "88d55c13-826a-48f4-9db1-71377d81f77f",
+          "name": "Walking Events",
+          "type": "variations",
+          "variations": [
+            { "id": "b8810db6-d210-40b9-b26f-cff4e3f734fa", "name": "3K" },
+            { "id": "4b090ae2-5ece-4ea8-bed0-6cac69d89c8d", "name": "5K" },
+            { "id": "51622ab8-e370-4a80-ba8a-634f93b2fc15", "name": "8K" },
+            { "id": "6c3cd424-9011-4610-ab51-56280bbab55d", "name": "10K" },
+            {
+              "id": "2b57ce56-6007-4fd3-8aef-45879faa2bf2",
+              "name": "Half Marathon"
+            },
+            {
+              "id": "48e27f98-5cc9-4837-90a7-d03197e1911c",
+              "name": "Full Marathon"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

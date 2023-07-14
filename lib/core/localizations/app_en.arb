@@ -1,0 +1,498 @@
+{
+  "getStarted": "Get started",
+  "@getStarted": {
+    "description": "A programmer greeting"
+  },
+  "hello": "Hi {username}, Welcome",
+  "@hello": {
+    "description": "A welcome message",
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "sign_up": "Sign Up",
+  "@sign_up": {
+    "description": "description..."
+  },
+  "already_have_an_account": "Already have an account?",
+  "@already_have_an_account": {
+    "description": "description..."
+  },
+  "log_in": "Log In",
+  "@log_in": {
+    "description": "description..."
+  },
+  "welcome": "Welcome!",
+  "@welcome": {
+    "description": "description..."
+  },
+  "continue_with_facebook": "CONTINUE WITH FACEBOOK",
+  "@continue_with_facebook": {
+    "description": "description..."
+  },
+  "continue_with_google": "CONTINUE WITH GOOGLE",
+  "@continue_with_google": {
+    "description": "description..."
+  },
+  "continue_with_apple": "CONTINUE WITH APPLE",
+  "@continue_with_apple": {
+    "description": "description..."
+  },
+  "or_login_with_email": "Or log in with email",
+  "@or_login_with_email": {
+    "description": "description..."
+  },
+  "email": "Email",
+  "@email": {
+    "description": "description..."
+  },
+  "password": "Password",
+  "@password": {
+    "description": "description..."
+  },
+  "forget_password": "Forgot password?",
+  "@forget_password": {
+    "description": "description..."
+  },
+  "dont_have_an_account": "Don't have an account?",
+  "@dont_have_an_account": {
+    "description": "description..."
+  },
+  "create_your_account": "Create your account",
+  "@create_your_account": {
+    "description": "description..."
+  },
+  "or_sign_up_with_email": "Or sign up with",
+  "@or_sign_up_with_email": {
+    "description": "description..."
+  },
+  "i_have_read": "I have read the",
+  "@i_have_read": {
+    "description": "description..."
+  },
+  "privacy_policy": "Privacy Policy",
+  "@privacy_policy": {
+    "description": "description..."
+  },
+  "skip": "Skip",
+  "@skip": {
+    "description": "description..."
+  },
+  "sign_in": "Sign In",
+  "@sign_in": {
+    "description": "description..."
+  },
+  "verify_email": "Verify Email",
+  "@verify_email": {
+    "description": "description..."
+  },
+  "verify_your_email": "Verify your email",
+  "@verify_your_email": {
+    "description": "description..."
+  },
+  "verify_your_email_desc": "Enter the email associated with your account we’ll send email with password to verify",
+  "@verify_your_email_desc": {
+    "description": "description..."
+  },
+  "enter_email_address": "Enter the email address\nassociated with your account.",
+  "@enter_email_address": {
+    "description": "description..."
+  },
+  "we_will_send_link_to_your_email": "We’ll send you a link to your email\nto reset your password",
+  "@we_will_send_link_to_your_email": {
+    "description": "description..."
+  },
+  "send": "Send",
+  "@send": {
+    "description": "description..."
+  },
+  "enter_your_new_password": "Enter Your New Password",
+  "@enter_your_new_password": {
+    "description": "description..."
+  },
+  "confirm_password": "Confirm Password",
+  "@confirm_password": {
+    "description": "description..."
+  },
+  "new_password": "New Password",
+  "@new_password": {
+    "description": "description..."
+  },
+  "reset_password_desc": "For strong password: please include minimum of 8 characters, at least 1 uppercase and 1 lowercase and 1 number",
+  "@reset_password_desc": {
+    "description": "description..."
+  },
+  "password_reset_successfully": "Password has been reset",
+  "@password_reset_successfully": {
+    "description": "description..."
+  },
+  "create_profile": "Create profile",
+  "@create_profile": {
+    "description": "description..."
+  },
+  "continue_n": "Continue",
+  "@continue_n": {
+    "description": "description..."
+  },
+  "yes_done": "Yes! Done",
+  "@yes_done": {
+    "description": "description..."
+  },
+  "select_gender_and_age": "Select gender and age",
+  "@select_gender_and_age": {
+    "description": "description..."
+  },
+  "male": "Male",
+  "@male": {
+    "description": "description..."
+  },
+  "female": "Female",
+  "@female": {
+    "description": "description..."
+  },
+  "player_name": "Player Name",
+  "@player_name": {
+    "description": "description..."
+  },
+  "first_name": "First Name",
+  "@first_name": {
+    "description": "description..."
+  },
+  "last_name": "Last Name",
+  "@last_name": {
+    "description": "description..."
+  },
+  "bio": "bio",
+  "@bio": {
+    "description": "description..."
+  },
+  "date_of_birth": "Date of birth",
+  "@date_of_birth": {
+    "description": "description..."
+  },
+  "i_am_from": "I am from",
+  "@i_am_from": {
+    "description": "description..."
+  },
+  "country": "Country",
+  "@country": {
+    "description": "description..."
+  },
+  "home_address": "Home Address",
+  "@home_address": {
+    "description": "description..."
+  },
+  "state": "State",
+  "@state": {
+    "description": "description..."
+  },
+  "city_town": "City / Town",
+  "@city_town": {
+    "description": "description..."
+  },
+  "upload_profile_photo": "Upload profile\nphoto",
+  "@upload_profile_photo": {
+    "description": "description..."
+  },
+  "player_status": "Player Status",
+  "@player_status": {
+    "description": "description..."
+  },
+  "enter_height": "Enter Height",
+  "@enter_height": {
+    "description": "description..."
+  },
+  "enter_weight": "Enter Weight",
+  "@enter_weight": {
+    "description": "description..."
+  },
+  "my_current_location": "My current location",
+  "@my_current_location": {
+    "description": "description..."
+  },
+  "welcome_to_mpac": "Welcome to MPAC",
+  "@welcome_to_mpac": {
+    "description": "description..."
+  },
+  "welcome_to_mpac_desc": "Your profile was created successfully.\nNow let's get started",
+  "@welcome_to_mpac_desc": {
+    "description": "description..."
+  },
+  "select_your_sports": "Select Your Sports",
+  "@select_your_sports": {
+    "description": "description..."
+  },
+  "camera": "Camera",
+  "@camera": {
+    "description": "description..."
+  },
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "description..."
+  },
+  "add_your_sports": "Add your sports",
+  "@add_your_sports": {
+    "description": "description..."
+  },
+  "add_your_skills": "Add your skills",
+  "@add_your_skills": {
+    "description": "description..."
+  },
+  "select_your_profile": "Select Your Profile",
+  "@select_your_profile": {
+    "description": "description..."
+  },
+  "player": "Player",
+  "@player": {
+    "description": "description..."
+  },
+  "partner": "Partner",
+  "@partner": {
+    "description": "description..."
+  },
+  "player_position": "Player Position",
+  "@player_position": {
+    "description": "description..."
+  },
+  "you_must_add_one_in_each_sport": "You must add at least one skill in each Sports",
+  "@you_must_add_one_in_each_sport": {
+    "description": "description..."
+  },
+  "n_out_of_ten_selected": "{num} out of 10 selected",
+  "@n_out_of_ten_selected": {
+    "description": "description...",
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "player_event": "Player Event",
+  "@player_event": {
+    "description": "description..."
+  },
+  "personal_best": "Personal Best",
+  "@personal_best": {
+    "description": "description..."
+  },
+  "home": "Home",
+  "@home": {
+    "description": "description..."
+  },
+  "trending": "Trending",
+  "@trending": {
+    "description": "description..."
+  },
+  "inbox": "Inbox",
+  "@inbox": {
+    "description": "description..."
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "description..."
+  },
+  "followers": "Followers",
+  "@followers": {
+    "description": "description..."
+  },
+  "following": "Following",
+  "@following": {
+    "description": "description..."
+  },
+  "edit_profile": "Edit Profile",
+  "@edit_profile": {
+    "description": "description..."
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "description..."
+  },
+  "comments": "Comments",
+  "@comments": {
+    "description": "description..."
+  },
+  "write_new_comment": "Write a new comment",
+  "@write_new_comment": {
+    "description": "description..."
+  },
+  "post": "Post",
+  "@post": {
+    "description": "description..."
+  },
+  "my_account": "My Account",
+  "@my_account": {
+    "description": "description..."
+  },
+  "follow_and_invite_friends": "Follow and Invite Friends",
+  "@follow_and_invite_friends": {
+    "description": "description..."
+  },
+  "my_players": "My Players",
+  "@my_players": {
+    "description": "description..."
+  },
+  "license_agreement": "License Agreement",
+  "@license_agreement": {
+    "description": "description..."
+  },
+  "download_my_data": "Download My Data",
+  "@download_my_data": {
+    "description": "description..."
+  },
+  "help": "Help",
+  "@help": {
+    "description": "description..."
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "description..."
+  },
+  "delete_my_account": "Delete My Account",
+  "@delete_my_account": {
+    "description": "description..."
+  },
+  "follow_and_invite": "Follow and Invite",
+  "@follow_and_invite": {
+    "description": "description..."
+  },
+  "save": "Save",
+  "@save": {
+    "description": "description..."
+  },
+  "personal_info": "Personal Info",
+  "@personal_info": {
+    "description": "description..."
+  },
+  "invite_friends_by": "Invite friends by {type}",
+  "@invite_friends_by": {
+    "description": "description...",
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "gender": "Gender",
+  "@gender": {
+    "description": "description..."
+  },
+  "height": "Height",
+  "@height": {
+    "description": "description..."
+  },
+  "weight": "Weight",
+  "@weight": {
+    "description": "description..."
+  },
+  "town": "Town",
+  "@town": {
+    "description": "description..."
+  },
+  "current_location": "Current location",
+  "@current_location": {
+    "description": "description..."
+  },
+  "sports": "Sports",
+  "@sports": {
+    "description": "description..."
+  },
+  "new_post": "New post",
+  "@new_post": {
+    "description": "description..."
+  },
+  "next": "Next",
+  "@next": {
+    "description": "description..."
+  },
+  "story": "Story",
+  "@story": {
+    "description": "description..."
+  },
+  "reel": "Reel",
+  "@reel": {
+    "description": "description..."
+  },
+  "live": "Live",
+  "@live": {
+    "description": "description..."
+  },
+  "post_desc": "Write a description about your post.",
+  "@post_desc": {
+    "description": "description..."
+  },
+  "publish": "Publish",
+  "@publish": {
+    "description": "description..."
+  },
+  "noSelectedItems": "No selected items!",
+  "@noSelectedItems": {
+    "description": "description..."
+  },
+  "username": "Username",
+  "@username": {
+    "description": "description..."
+  },
+  "invalid_email": "invalid email!",
+  "@invalid_email": {
+    "description": "description..."
+  },
+  "invalid_input": "invalid input, this field cannot be empty!",
+  "@invalid_input": {
+    "description": "description..."
+  },
+  "invalid_password": "invalid password, it should be 6 characters at least!",
+  "@invalid_password": {
+    "description": "description..."
+  },
+  "required_field": "required field!",
+  "@required_field": {
+    "description": "description..."
+  },
+  "done": "Done",
+  "@done": {
+    "description": "description..."
+  },
+  "noPostsFound": "No posts found!",
+  "@noPostsFound": {
+    "description": "description..."
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "description..."
+  },
+  "player_information": "Player information",
+  "@player_information": {
+    "description": "description..."
+  },
+  "you_should_select_date_of_birth": "You should select the date of birth field!",
+  "@you_should_select_date_of_birth": {
+    "description": "description..."
+  },
+  "you_enter_your_phone_number": "You should enter your phone number!",
+  "@you_enter_your_phone_number": {
+    "description": "description..."
+  },
+  "some_variations_missing_desc": "{str} selected but no positions or variations selected on them!",
+  "@some_variations_missing_desc": {
+    "description": "description...",
+    "placeholders": {
+      "str": {
+        "type": "String"
+      }
+    }
+  },
+  "warning": "Warning",
+  "@warning": {
+    "description": "description..."
+  },
+  "likes": "Likes",
+  "@likes": {
+    "description": "description..."
+  },
+  "edit_post": "Edit Post",
+  "@edit_post": {
+    "description": "description..."
+  }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.css"/>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Gametime powered by MPAC Sports">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="mpac_app">
+
+    <meta name="google-signin-client_id"
+          content="398523306336-jla6ojupjteuuulrj1chdam16e7o6djj.apps.googleusercontent.com">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#da532c">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#333333">
+
+    <title>GameTime</title>
+    <link rel="manifest" href="manifest.json">
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-messaging.js"></script>
+
+    <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+
+    </script>
+
+    <script src="flutter.js" defer></script>
+
+    <style>
+      body {
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .spinner {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .spinner img {
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .spinner:before {
+        content: attr(data-text);
+        font-size: 14px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .spinner:after {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60px;
+        height: 60px;
+        margin-top: -30px;
+        margin-left: -30px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #ffffff;
+        animation: spin 1s ease-in-out infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+</head>
+
+<body>
+
+<script type="text/javascript">
+    window.flutterWebRenderer = "html";
+
+</script>
+
+<script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+
+</script>
+
+<script src="assets/packages/libphonenumber_plugin/js/libphonenumber.js"></script>
+<script src="assets/packages/libphonenumber_plugin/js/stringbuffer.js"></script>
+
+
+<script>
+<!--Update with yours config-->
+  const firebaseConfig = {
+    apiKey: "AIzaSyDWJjD_iuw8eY-hQtn5fJzMlVvym-Ll-V4",
+    authDomain: "mpac-sports.firebaseapp.com",
+    projectId: "mpac-sports",
+    storageBucket: "mpac-sports.appspot.com",
+    messagingSenderId: "398523306336",
+    appId: "1:398523306336:web:18ecbfc7a90a414fa7ce05",
+    measurementId: "G-X52P5LN336"
+  };
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/firebase-messaging-sw.js");
+      });
+    }
+
+</script>
+
+<div class="spinner" data-text="">
+    <img src="assets/assets/images/logos/launcher.png" alt="Your Image">
+</div>
+
+</body>
+
+</html>

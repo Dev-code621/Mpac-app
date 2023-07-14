@@ -1,0 +1,61 @@
+pipeline {
+  environment {
+    imagename = "mpac-app"
+    // replace with your credential inside Jenkins server, for docker registry
+    registryCredential = 'docker'
+    dockerImage = ''
+  }
+
+  agent any
+  stages {
+    stage('Building image') {
+      steps{
+        withCredentials([file(credentialsId: 'production-mpac-app-env', variable: 'env_file')]) {
+            writeFile file: '.env', text: readFile(env_file)
+        }
+        script {
+          dockerImage = docker.build(imagename, ". -f deploy/shared/Dockerfile")
+        }
+      }
+    }
+    stage('Pushing image') {
+      steps{
+        script {
+          docker.withRegistry( 'https://registry.staging.mpacapp.com/', registryCredential ) {
+            dockerImage.push("$BUILD_NUMBER")
+             dockerImage.push('latest')
+          }
+        }
+      }
+    }
+    stage('Deploy to production') {
+      steps {
+        sshPublisher(
+          continueOnError: false,
+          failOnError: true,
+          publishers: [
+            sshPublisherDesc(
+              configName: "production",
+              transfers: [sshTransfer(sourceFiles: 'deploy/shared/docker-compose.yaml', remoteDirectory: 'mpac-app')],
+              verbose: true
+            )
+          ]
+        )
+        echo "Image deployed successfully"
+        sshPublisher(
+          continueOnError: false,
+          failOnError: true,
+          publishers: [
+            sshPublisherDesc(
+              // replace with your credential inside Jenkins server, for SSH connection
+              configName: "production",
+              transfers: [sshTransfer(execCommand: 'docker-compose -f mpac-app/deploy/shared/docker-compose.yaml pull && docker-compose -f mpac-app/deploy/shared/docker-compose.yaml up -d')],
+              verbose: true
+            )
+          ]
+        )
+        echo "Pipeline completed"
+      }
+    }
+  }
+}
